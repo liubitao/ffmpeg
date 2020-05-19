@@ -13,9 +13,12 @@
 #include "avutil.h"
 #include "avdevice.h"
 #include "avformat.h"
+#include "avcodec.h"
+#include "swresample.h"
 
 
-void haha(void);
+void set_status(int status);
+void rec_audio(void);
 
 
 
